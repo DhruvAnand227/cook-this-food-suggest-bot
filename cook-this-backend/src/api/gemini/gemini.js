@@ -47,6 +47,8 @@ async function generateText(city, country, cuisines, food_pref, ingredients) {
             8. Give practical and realistic dish suggestions.
             9. For each suggestion, mention the dish name, cuisine, and why it is suitable for the current weather.
             10. Do not suggest any dish that violates the user's food preference.
+            11. Most importantly suggest one dish per cuisine without using any bold letters or emojies. Simply give as 
+            Cuisine - Cuisine name and below it dish name and nothing more fancy
 
             Return the suggestions in a clear and easy-to-read format.
             `

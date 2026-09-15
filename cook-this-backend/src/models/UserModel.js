@@ -21,6 +21,11 @@ const userSchema = new mongoose.Schema({
         required: true
     },
 
+    city : {
+        type: String,
+        required: true
+    },
+
     cuisines: {
         type: [String],
         required: true
@@ -29,6 +34,11 @@ const userSchema = new mongoose.Schema({
     food_preference: {
         type: String,
         enum: ["veg", "non-veg", "vegan"],
+        required: true
+    },
+
+    ingredients: {
+        type: [String],
         required: true
     }
 });
